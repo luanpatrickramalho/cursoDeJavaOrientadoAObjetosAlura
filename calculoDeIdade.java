@@ -16,6 +16,8 @@ public class calculoDeIdade {
 		idade = anoAtual - anoNascimento;
 		System.out.println("Voce tem " + idade + " Anos.");
 		
+		teclado.close();
+		
 	}
 
 }
